@@ -5,7 +5,7 @@
   "colors": {
 
     // ─── Core editor ──────────────────────────────────────────────────────────
-    "editor.background":                          "#EEF2DC",
+    "editor.background":                          "#F1F5E0",
     "editor.foreground":                          "#2C3320",
     "editorCursor.foreground":                    "#4A6741",
     "editorCursor.background":                    "#EEF2DC",
@@ -89,7 +89,7 @@
     "editorGroupHeader.noTabsBackground":         "#DFE6CA",
     "editorGroupHeader.border":                   "#C4CEA8",
 
-    "tab.activeBackground":                       "#EEF2DC",
+    "tab.activeBackground":                       "#F1F5E0",
     "tab.activeForeground":                       "#2C3320",
     "tab.activeBorderTop":                        "#4A6741",
     "tab.activeBorder":                           "#00000000",
@@ -280,10 +280,10 @@
     "editorSuggestWidget.selectedBackground":     "#C2D0A0",
     "editorSuggestWidget.selectedForeground":     "#2C3320",
     "editorSuggestWidget.selectedIconForeground": "#2C3320",
-    "editorHoverWidget.background":               "#E8EED4",
+    "editorHoverWidget.background":               "#F7FAF0",
     "editorHoverWidget.border":                   "#C4CEA8",
     "editorHoverWidget.foreground":               "#2C3320",
-    "editorHoverWidget.statusBarBackground":      "#DFE6CA",
+    "editorHoverWidget.statusBarBackground":      "#EEF3E2",
 
     // ─── Peek view ────────────────────────────────────────────────────────────
     "peekView.border":                            "#4A6741",
@@ -381,7 +381,7 @@
 
     // ─── Breadcrumb ───────────────────────────────────────────────────────────
     "breadcrumb.foreground":                      "#6A7A56",
-    "breadcrumb.background":                      "#EEF2DC",
+    "breadcrumb.background":                      "#F1F5E0",
     "breadcrumb.focusForeground":                 "#2C3320",
     "breadcrumb.activeSelectionForeground":       "#2C3320",
     "breadcrumbPicker.background":                "#EEF2DC",
@@ -407,7 +407,7 @@
     "settings.sashBorder":                        "#C4CEA8",
 
     // ─── Quick picker ─────────────────────────────────────────────────────────
-    "quickInput.background":                      "#E8EED4",
+    "quickInput.background":                      "#F1F5E0",
     "quickInput.foreground":                      "#2C3320",
     "quickInputList.focusBackground":             "#C2D0A0",
     "quickInputList.focusForeground":             "#2C3320",
