@@ -1,14 +1,39 @@
 {
-  "name": "forest-light-green",
-  "displayName": "Forest Light Green",
-  "description": "A very light green theme, filling a major gap in current color theme options, intended to avoid the overt eye strain of straight white themes while maintaining readability.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.110.0"
+  "name": "mossy-forest-light-green",
+  "displayName": "Mossy Forest Light Green",
+  "description": "A soft, nature-inspired light theme designed for minimum eye fatigue and excellent readability. Mossy Forest Light Green swaps hard whites for a palette of muted earth tones, terracotta, sage, and amber, and fills a gap in existing themes which often ignore appealing green tones in favor of tans or blues.",
+  "version": "0.3.0",
+  "publisher": "YOUR-PUBLISHER-ID",
+  "author": "Dylan Bay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanbay11/mossy-forest-light-green"
   },
-  "categories": [
-    "Themes"
+  "homepage": "https://github.com/dylanbay11/mossy-forest-light-green",
+  "bugs": {
+    "url": "https://github.com/dylanbay11/mossy-forest-light-green/issues"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#4A6741",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "light-theme",
+    "minimal",
+    "light",
+    "green",
+    "forest",
+    "eye-strain",
+    "muted"
   ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
