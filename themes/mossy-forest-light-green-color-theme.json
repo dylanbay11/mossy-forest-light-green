@@ -489,7 +489,48 @@
     "testing.message.info.decorationForeground":  "#4A83CD",
 
     // ─── Outline ──────────────────────────────────────────────────────────────
-    "outline.foreground":                         "#2C3320"
+    "outline.foreground":                         "#2C3320",
+
+    // ─── Notebook ─────────────────────────────────────────────────────────────
+    "notebook.cellBorderColor":                   "#C4CEA8",
+    "notebook.focusedCellBorder":                 "#4A6741",
+    "notebook.cellEditorBackground":              "#F1F5E0",
+    "notebook.focusedCellBackground":             "#E8EED4",
+    "notebook.cellHoverBackground":               "#EEF2DC",
+    "notebook.selectedCellBackground":            "#E8EED4",
+    "notebook.selectedCellBorder":                "#C4CEA8",
+    "notebook.focusedEditorBorder":               "#4A6741", 
+
+    // ─── Inlay Hints ──────────────────────────────────────────────────────────
+    "editorInlayHint.background":                 "#D8E0C066",
+    "editorInlayHint.foreground":                 "#6A7A56",
+    "editorInlayHint.typeBackground":             "#D8E0C066",
+    "editorInlayHint.typeForeground":             "#6A7A56",
+    "editorInlayHint.parameterBackground":        "#D8E0C066",
+    "editorInlayHint.parameterForeground":        "#6A7A56",
+
+    // ─── AI Chat & Inline Assistant ───────────────────────────────────────────
+    "chat.requestBackground":                     "#E8ECCE",
+    "chat.requestBorder":                         "#C4CEA8",
+    "chat.slashCommandBackground":                "#C2D0A0",
+    "chat.slashCommandForeground":                "#2C3320",
+    "inlineChat.background":                      "#EEF2DC",
+    "inlineChat.border":                          "#4A6741",
+    "inlineChat.shadow":                          "#0000001A",
+
+    // ─── Error Lens Extension ─────────────────────────────────────────────────
+    "errorLens.errorBackground":                  "#CC444415",
+    "errorLens.errorForeground":                  "#CC4444",
+    "errorLens.warningBackground":                "#AA773315",
+    "errorLens.warningForeground":                "#AA7733",
+    "errorLens.infoBackground":                   "#4A83CD15",
+    "errorLens.infoForeground":                   "#4A83CD",
+    "errorLens.hintBackground":                   "#448C2715",
+    "errorLens.hintForeground":                   "#448C27",
+
+    // ─── Webview & Markdown Preview ───────────────────────────────────────────
+    "textPreformat.background":                   "#DDE6C4",
+    "walkThrough.embeddedEditorBackground":       "#F1F5E0"
   },
 
   "tokenColors": [
