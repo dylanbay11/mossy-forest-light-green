@@ -325,7 +325,7 @@
     "gitDecoration.stageModifiedResourceForeground":"#4A83CD",
 
     // ─── Minimap ──────────────────────────────────────────────────────────────
-    "minimap.background":                         "#E8EED4CC",
+    "minimap.background":                         "#EEF2DCFF",
     "minimap.selectionHighlight":                 "#C2D0A0AA",
     "minimap.errorHighlight":                     "#CC4444AA",
     "minimap.warningHighlight":                   "#AA7733AA",
@@ -501,7 +501,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#8A9A6A"
+        "foreground": "#6B7D52"
       }
     },
     {
@@ -509,7 +509,7 @@
       "scope": "comment.block.preprocessor",
       "settings": {
         "fontStyle": "",
-        "foreground": "#9AAA7A"
+        "foreground": "#6B7D52"
       }
     },
     {
