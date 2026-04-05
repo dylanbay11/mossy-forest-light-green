@@ -37,9 +37,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Forest Light Green",
+        "label": "Mossy Forest Light Green",
         "uiTheme": "vs",
-        "path": "./themes/Forest Light Green-color-theme.json"
+        "path": "./themes/mossy-forest-light-green-color-theme.json"
       }
     ]
   }
