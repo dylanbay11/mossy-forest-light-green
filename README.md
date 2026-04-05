@@ -9,30 +9,59 @@ Theme by Dylan Bay.
 The major colors used include:
 
 **Interface**
-- Editor Background, `#F1F5E0`, "Moss" — the primary writing surface, soft and low-glare.
-- Sidebar, `#E4EAD0`, "Understory" — one step darker than the editor to create gentle depth.
-- Tab Bar, `#DFE6CA`, "Canopy" — inactive tab area, slightly darker still.
-- Activity Bar, `#3D5436`, "Deep Evergreen" — anchors the left chrome in a rich forest tone.
-- Status Bar, `#4A6741`, "Fern" — echoes the activity bar at a lighter shade.
-- Hover/Definition Popups, `#F7FAF0`, "Morning Mist" — the lightest surface, used for floating widgets.
-- Panel & Terminal, `#E8EED4`, "Sage" — slightly warmer than the editor to distinguish the bottom pane.
+
+- Editor Background <span style="display:inline-block;width:12px;height:12px;background:#F1F5E0;border:1px solid #ccc;"></span> `#F1F5E0`, "Moss" — the primary writing surface, soft and low-glare.
+- Sidebar <span style="display:inline-block;width:12px;height:12px;background:#E4EAD0;border:1px solid #ccc;"></span> `#E4EAD0`, "Understory" — one step darker than the editor to create gentle depth.
+- Tab Bar <span style="display:inline-block;width:12px;height:12px;background:#DFE6CA;border:1px solid #ccc;"></span> `#DFE6CA`, "Canopy" — inactive tab area, slightly darker still.
+- Activity Bar <span style="display:inline-block;width:12px;height:12px;background:#3D5436;border:1px solid #ccc;"></span> `#3D5436`, "Deep Evergreen" — anchors the left chrome in an appealing dark forest tone.
+- Status Bar <span style="display:inline-block;width:12px;height:12px;background:#4A6741;border:1px solid #ccc;"></span> `#4A6741`, "Fern" — echoes the activity bar at a lighter shade.
+- Hover/Definition Popups <span style="display:inline-block;width:12px;height:12px;background:#F7FAF0;border:1px solid #ccc;"></span> `#F7FAF0`, "Morning Mist" — the lightest surface, used for floating widgets.
+- Panel & Terminal <span style="display:inline-block;width:12px;height:12px;background:#E8EED4;border:1px solid #ccc;"></span> `#E8EED4`, "Sage" — slightly warmer than the editor to distinguish the bottom pane and avoid looking too monochromatic.
 
 **Syntax**
-- Plain Text, `#2C3320`, "Dark Moss" — near-black with a green lean, avoids the harshness of pure black.
-- Comments, `#6B7D52`, "Lichen" — clearly de-emphasized but readable; italic.
-- Keywords, `#4B83CD`, "Cornflower" — confident blue, the most common syntax color you'll see.
-- Strings, `#448C27`, "Leaf" — a natural green that feels at home on the green base.
-- Functions, `#AA3731`, "Redwood" — muted brick red for clear function call visibility.
-- Classes & Types, `#7A3E9D`, "Thistle" — medium purple distinguishes type-level constructs.
-- Constants & Numbers, `#AB6526`, "Amber" — warm amber for literals and language constants.
-- Operators & Punctuation, `#6A7A56`, "Sage Gray" — intentionally quiet; structure without noise.
-- Doc Comments, `#448C27`, "Leaf" — same as strings, reinforcing that doc comments are content.
+
+- Plain Text <span style="display:inline-block;width:12px;height:12px;background:#2C3320;border:1px solid #ccc;"></span> `#2C3320`, "Dark Moss" — near-black with a green lean to match the theme without readability issues.
+- Comments <span style="display:inline-block;width:12px;height:12px;background:#6B7D52;border:1px solid #ccc;"></span> `#6B7D52`, "Lichen" — clearly de-emphasized but readable and italic. See below for alternatives.
+- Keywords <span style="display:inline-block;width:12px;height:12px;background:#4B83CD;border:1px solid #ccc;"></span> `#4B83CD`, "Cornflower" — confident blue, commonly used and also for links, to stay familiar. 
+- Strings <span style="display:inline-block;width:12px;height:12px;background:#448C27;border:1px solid #ccc;"></span> `#448C27`, "Leaf" — a natural green that feels at home on the green base. I like it lighter like this, but you could darken it.
+- Functions <span style="display:inline-block;width:12px;height:12px;background:#AA3731;border:1px solid #ccc;"></span> `#AA3731`, "Redwood" — muted brick red for clear function call visibility, looks nice slightly bold.
+- Classes & Types <span style="display:inline-block;width:12px;height:12px;background:#7A3E9D;border:1px solid #ccc;"></span> `#7A3E9D`, "Thistle" — medium purple distinguishes type-level constructs without feeling out of place.
+- Constants & Numbers <span style="display:inline-block;width:12px;height:12px;background:#AB6526;border:1px solid #ccc;"></span> `#AB6526`, "Soil" — warm earthy amber for literals and language constants, I think it blends well. 
+- Operators & Punctuation <span style="display:inline-block;width:12px;height:12px;background:#6A7A56;border:1px solid #ccc;"></span> `#6A7A56`, "Sage Gray" — intentionally quiet and de-emphasized. See below for more standout alternatives.
+- Doc Comments <span style="display:inline-block;width:12px;height:12px;background:#448C27;border:1px solid #ccc;"></span> `#448C27`, "Leaf" — same as strings, reinforcing that doc comments are content.
 
 ## Popular Tweaks
 
-You may prefer a stronger, more neutral comment color if the italics are currently too subtle for you. If so, I recommend #556644. 
+For a stronger, more neutral comment color, if the italics are currently too subtle for you, I recommend #556644. 
 
-If you would like a slightly stronger selection highlight, I suggest #AABF80.
+For a slightly stronger selection highlight, I suggest #AABF80.
+
+For more attention-grabbing operators, comparators, and punctuation, I suggest #007A7C ("Deep Water") for a middle ground or #880E4F ("Autumn Berry") for higher importance. Alternatively, you may choose merely to make these bold while keeping the original coloration. 
+
+To override these settings yourself, paste into `settings.json` some variant of the following with only the changes you want, which will trigger only when the theme is active:
+
+```json
+"workbench.colorCustomizations": {
+    "[Mossy Forest Light Green]": {
+        "editor.selectionBackground": "#AABF80AA",
+        "editor.selectionHighlightBackground": "#AABF8055"
+    }
+},
+"editor.tokenColorCustomizations": {
+    "[Mossy Forest Light Green]": {
+        "comments": "#556644",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#007A7C",  // or #880E4F
+                    "fontStyle": "bold"         // optional
+                },
+            }
+        ]
+    }
+}
+```
 
 ## Pull Requests
 
