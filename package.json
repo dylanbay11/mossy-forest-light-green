@@ -1,0 +1,21 @@
+{
+  "name": "forest-light-green",
+  "displayName": "Forest Light Green",
+  "description": "A very light green theme, filling a major gap in current color theme options, intended to avoid the overt eye strain of straight white themes while maintaining readability.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Forest Light Green",
+        "uiTheme": "vs",
+        "path": "./themes/Forest Light Green-color-theme.json"
+      }
+    ]
+  }
+}
