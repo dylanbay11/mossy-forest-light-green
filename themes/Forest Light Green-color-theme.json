@@ -45,9 +45,9 @@
     // Brackets
     "editorBracketMatch.background":              "#B8CC8844",
     "editorBracketMatch.border":                  "#7A9A5A",
-    "editorBracketHighlight.foreground1":         "#4A6741",
+    "editorBracketHighlight.foreground1":         "#2E6B55",
     "editorBracketHighlight.foreground2":         "#4A83CD",
-    "editorBracketHighlight.foreground3":         "#7A3E9D",
+    "editorBracketHighlight.foreground3":         "#8A2BE2",
     "editorBracketHighlight.foreground4":         "#AA3731",
     "editorBracketHighlight.foreground5":         "#AB6526",
     "editorBracketHighlight.foreground6":         "#448C27",
