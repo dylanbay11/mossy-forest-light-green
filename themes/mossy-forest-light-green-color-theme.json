@@ -12,7 +12,7 @@
 
     // Selection & highlights
     "editor.selectionBackground":                 "#C2D0A0",
-    "editor.inactiveSelectionBackground":         "#D0DAB4",
+    "editor.inactiveSelectionBackground":         "#D0DAB477",
     "editor.selectionHighlightBackground":        "#CEDAD655",
     "editor.wordHighlightBackground":             "#D4DEB844",
     "editor.wordHighlightStrongBackground":       "#C2CE9C55",
@@ -21,7 +21,7 @@
 
     // Find & search
     "editor.findMatchBackground":                 "#B8CC88",
-    "editor.findMatchBorder":                     "#7A9A5A",
+    "editor.findMatchBorder":                     "#00000000",
     "editor.findMatchHighlightBackground":        "#CEDC9C77",
     "editor.findRangeHighlightBackground":        "#C8D8A422",
     "editor.hoverHighlightBackground":            "#D4DEB833",
