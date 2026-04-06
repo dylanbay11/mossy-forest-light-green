@@ -1,7 +1,8 @@
 # Change Log
 
 ## 0.3.0
-- Initial public release for VSCode and VSX
+- Packaged for initial public release for VSCode and VSX
+- Add screenshots
 
 ## 0.2.0
 - Expanded readme, including alternative color suggestions
