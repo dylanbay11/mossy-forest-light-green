@@ -22,9 +22,9 @@ The major colors used include:
 - Sidebar <span style="display:inline-block;width:12px;height:12px;background:#E4EAD0;border:1px solid #ccc;"></span> `#E4EAD0`, "Understory" — one step darker than the editor to create gentle depth.
 - Tab Bar <span style="display:inline-block;width:12px;height:12px;background:#DFE6CA;border:1px solid #ccc;"></span> `#DFE6CA`, "Canopy" — inactive tab area, slightly darker still.
 - Activity Bar <span style="display:inline-block;width:12px;height:12px;background:#3D5436;border:1px solid #ccc;"></span> `#3D5436`, "Deep Evergreen" — anchors the left chrome in an appealing dark forest tone.
-- Status Bar <span style="display:inline-block;width:12px;height:12px;background:#4A6741;border:1px solid #ccc;"></span> `#4A6741`, "Fern" — echoes the activity bar at a lighter shade.
+- Status Bar <span style="display:inline-block;width:12px;height:12px;background:#4A6741;border:1px solid #ccc;"></span> `#4A6741`, "Fern" — echoes the activity bar at a lighter shade to avoid looking too monochromatic.
 - Hover/Definition Popups <span style="display:inline-block;width:12px;height:12px;background:#F7FAF0;border:1px solid #ccc;"></span> `#F7FAF0`, "Morning Mist" — the lightest surface, used for floating widgets.
-- Panel & Terminal <span style="display:inline-block;width:12px;height:12px;background:#E8EED4;border:1px solid #ccc;"></span> `#E8EED4`, "Sage" — slightly warmer than the editor to distinguish the bottom pane and avoid looking too monochromatic.
+- Panel & Terminal <span style="display:inline-block;width:12px;height:12px;background:#E8EED4;border:1px solid #ccc;"></span> `#E8EED4`, "Sage" — a hair darker to provide visual separation while keeping the same overall impact.
 
 **Syntax**
 
