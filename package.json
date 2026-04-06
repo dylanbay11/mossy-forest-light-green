@@ -16,8 +16,8 @@
   },
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#4A6741",
-    "theme": "dark"
+    "color": "#F1F5E0",
+    "theme": "light"
   },
   "keywords": [
     "theme",
