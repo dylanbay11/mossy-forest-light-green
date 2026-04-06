@@ -1,6 +1,8 @@
 # Mossy Forest Light Green
 
-A soft, nature-inspired light theme designed for minimum eye fatigue and excellent readability. Mossy Forest Light Green swaps hard whites for a palette of muted earth tones, terracotta, sage, and amber, and fills a gap in existing themes which often ignore appealing green tones in favor of tans or blues. Supports Jupyter notebooks and sidebar chat pane coloration out of box as well.
+A soft, nature-inspired light theme designed for minimum eye fatigue and excellent readability. Mossy Forest Light Green uses a palette of light greens with darker muted earth tones. A nice alternative to darker green themes. Born out of a notable lack of quality light theme extensions that aren't white, tan, or blue, this theme embraces the natural side of the color wheel.
+
+Supports Jupyter notebooks and sidebar chat pane coloration out of box as well.
 
 Theme by Dylan Bay.
 
