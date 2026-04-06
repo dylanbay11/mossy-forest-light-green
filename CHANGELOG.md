@@ -6,8 +6,8 @@
 ## 0.2.0
 - Expanded readme, including alternative color suggestions
 - Main background changed to lighter green tone
-- Improved bracket coloration
-- Add Jupyter color support
+- Improved bracket and highlighter coloration
+- Add Jupyter and ErrorLens color support
 
 ## 0.1.0
 - Fully implemented "Mossy Forest Light Green" theme from design palette.
