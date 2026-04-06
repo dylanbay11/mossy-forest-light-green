@@ -4,6 +4,10 @@ A soft, nature-inspired light theme designed for minimum eye fatigue and excelle
 
 Theme by Dylan Bay.
 
+## Screenshots
+
+
+
 ## Primary Design Choices
 
 The major colors used include:
