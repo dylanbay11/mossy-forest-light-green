@@ -42,11 +42,11 @@ The major colors used include:
 
 ## Popular Tweaks
 
-For a stronger, more neutral comment color, if the italics are currently too subtle for you, I recommend <span style="display:inline-block;width:12px;height:12px;background:#556644;border:1px solid #ccc;"></span> #556644.
+For a stronger, more neutral comment color, if the italics are currently too subtle for you, I recommend <span style="display:inline-block;width:12px;height:12px;background:#556644;border:1px solid #ccc;"></span> `#556644`.
 
-For a slightly stronger selection highlight, I suggest <span style="display:inline-block;width:12px;height:12px;background:#AABF80;border:1px solid #ccc;"></span> #AABF80.
+For a slightly stronger selection highlight, I suggest <span style="display:inline-block;width:12px;height:12px;background:#AABF80;border:1px solid #ccc;"></span> `#AABF80`.
 
-For more attention-grabbing operators, comparators, and punctuation, I suggest <span style="display:inline-block;width:12px;height:12px;background:#007A7C;border:1px solid #ccc;"></span> #007A7C ("Deep Water") for a middle ground or <span style="display:inline-block;width:12px;height:12px;background:#880E4F;border:1px solid #ccc;"></span> #880E4F ("Autumn Berry") for higher importance. Alternatively, you may choose merely to make these bold while keeping the original coloration.
+For more attention-grabbing operators, comparators, and punctuation, I suggest <span style="display:inline-block;width:12px;height:12px;background:#007A7C;border:1px solid #ccc;"></span> `#007A7C` ("Deep Water") for a middle ground or <span style="display:inline-block;width:12px;height:12px;background:#880E4F;border:1px solid #ccc;"></span> `#880E4F` ("Autumn Berry") for higher importance. Alternatively, you may choose merely to make these bold while keeping the original coloration.
 
 To override these settings yourself, paste into `settings.json` some variant of the following with only the changes you want, which will trigger only when the theme is active:
 

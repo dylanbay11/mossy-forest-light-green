@@ -500,6 +500,8 @@
     "notebook.selectedCellBackground":            "#E8EED4",
     "notebook.selectedCellBorder":                "#C4CEA8",
     "notebook.focusedEditorBorder":               "#4A6741",
+    "interactive.activeCodeBorder":               "#4A6741", 
+    "interactive.inactiveCodeBorder":             "#C4CEA8",
 
     // ─── Inlay Hints ──────────────────────────────────────────────────────────
     "editorInlayHint.background":                 "#D8E0C066",

@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.4.0
+- Expanded and improved language defaults
+
 ## 0.3.0
 - Packaged for initial public release for VSCode and VSX
 - Add screenshots
