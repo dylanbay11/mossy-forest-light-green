@@ -499,7 +499,7 @@
     "notebook.cellHoverBackground":               "#EEF2DC",
     "notebook.selectedCellBackground":            "#E8EED4",
     "notebook.selectedCellBorder":                "#C4CEA8",
-    "notebook.focusedEditorBorder":               "#4A6741", 
+    "notebook.focusedEditorBorder":               "#4A6741",
 
     // ─── Inlay Hints ──────────────────────────────────────────────────────────
     "editorInlayHint.background":                 "#D8E0C066",
@@ -530,10 +530,11 @@
 
     // ─── Webview & Markdown Preview ───────────────────────────────────────────
     "textPreformat.background":                   "#DDE6C4",
-    "walkThrough.embeddedEditorBackground":       "#F1F5E0"
+    "walkThrough.embeddedEditorBackground":        "#F1F5E0"
   },
 
   "tokenColors": [
+    // ─── GENERAL (language-agnostic) rules ────────────────────────────────────────────────────────
     {
       "name": "Comments",
       "scope": [
@@ -543,7 +544,7 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#6B7D52"
-		// #556644 for a more neutral and stronger option
+        // #556644 for a more neutral and stronger option
       }
     },
     {
@@ -552,7 +553,7 @@
       "settings": {
         "fontStyle": "",
         "foreground": "#6B7D52"
-		// #556644 for a more neutral and stronger option
+        // #556644 for a more neutral and stronger option
       }
     },
     {
@@ -703,6 +704,7 @@
         "foreground": "#6A7A56"
       }
     },
+    // ─── HTML ───────────────────────────────────────────────────────────────────
     {
       "name": "HTML: Doctype Declaration",
       "scope": [
@@ -755,6 +757,7 @@
         "foreground": "#AB6526"
       }
     },
+    // ─── CSS ──────────────────────────────────────────────────────────────────────
     {
       "name": "CSS: Selectors",
       "scope": [
@@ -795,6 +798,102 @@
         "fontStyle": "bold"
       }
     },
+    // ─── C / C++ ──────────────────────────────────────────────────────────────
+    {
+      "name": "C/C++: Preprocessor Directives",
+      "scope": [
+        "keyword.control.directive",
+        "meta.preprocessor",
+        "keyword.control.import.include"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#3A8C7A"
+      }
+    },
+    {
+      "name": "C/C++: Preprocessor Macro Names",
+      "scope": "entity.name.function.preprocessor",
+      "settings": {
+        "foreground": "#AB6526"
+      }
+    },
+    // ─── SQL ──────────────────────────────────────────────────────────────────────
+    {
+      // Type names in CAST expressions and column type declarations
+      // (INTEGER, VARCHAR, NUMERIC, TIMESTAMP, BOOLEAN, etc.) map
+      // naturally to the purple type color used everywhere else.
+      "name": "SQL: Data Types",
+      "scope": [
+        "storage.type.sql",
+        "support.type.sql"
+      ],
+      "settings": {
+        "foreground": "#7A3E9D"
+      }
+    },
+// ─── R ───────────────────────────────────────────────────────────────────────────
+    {
+      "name": "R: Function Calls",
+      "scope": [
+        "variable.function.r",
+        "support.function.r"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#4B83CD"
+      }
+    },
+    {
+      "name": "R: Assignment Operators",
+      "scope": "keyword.operator.assignment.r",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#3A8C7A"
+      }
+    },
+    {
+      "name": "R: Pipe Operators & Special Infix",
+      "scope": [
+        "keyword.operator.pipe.r",
+        "keyword.operator.special.r"
+      ],
+      "settings": {
+        "fontStyle": "bold", // Bold here makes the tidyverse pipes pop structurally
+        "foreground": "#7A3E9D"
+      }
+    },
+    {
+      "name": "R: Logical Operators",
+      "scope": "keyword.operator.logical.r",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#7A3E9D"
+      }
+    },
+    {
+      "name": "R: Comparison Operators",
+      "scope": [
+        "keyword.operator.comparison.r",
+        "keyword.operator.relational.r"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#6A7A56"
+      }
+    },
+    {
+      "name": "R: Formula Tilde",
+      "scope": [
+        "keyword.operator.formula.r",
+        "keyword.operator.tilde.r"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#AA3731"
+      }
+    },
+    // ─── Markup (Markdown, reStructuredText, etc.) ────────────────────────────────────────────────
     {
       "name": "Markup: Changed",
       "scope": "markup.changed",
@@ -915,6 +1014,7 @@
         "foreground": "#AB6526"
       }
     },
+    // ─── Diff ───────────────────────────────────────────────────────────────────
     {
       "name": "Extra: Diff Range",
       "scope": [
