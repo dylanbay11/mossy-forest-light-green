@@ -833,7 +833,7 @@
       }
     },
 // ─── R ───────────────────────────────────────────────────────────────────────────
-    {
+{
       "name": "R: Function Calls",
       "scope": [
         "variable.function.r",
@@ -848,8 +848,8 @@
       "name": "R: Assignment Operators",
       "scope": "keyword.operator.assignment.r",
       "settings": {
-        "fontStyle": "",
-        "foreground": "#3A8C7A"
+        "fontStyle": "bold",
+        "foreground": "#007A7C"
       }
     },
     {
@@ -859,7 +859,7 @@
         "keyword.operator.special.r"
       ],
       "settings": {
-        "fontStyle": "bold", // Bold here makes the tidyverse pipes pop structurally
+        "fontStyle": "bold", 
         "foreground": "#7A3E9D"
       }
     },
@@ -868,7 +868,7 @@
       "scope": "keyword.operator.logical.r",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#7A3E9D"
+        "foreground": "#AA3731"
       }
     },
     {
@@ -878,8 +878,8 @@
         "keyword.operator.relational.r"
       ],
       "settings": {
-        "fontStyle": "",
-        "foreground": "#6A7A56"
+        "fontStyle": "bold",
+        "foreground": "#7A3E9D"
       }
     },
     {
