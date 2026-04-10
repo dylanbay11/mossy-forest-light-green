@@ -838,7 +838,11 @@
       "name": "R: Function Calls",
       "scope": [
         "variable.function.r",
-        "support.function.r"
+        "support.function.r",
+        "entity.name.function.r",
+        "meta.function-call.r",
+        "meta.function-call.identifier.r",
+        "meta.function.call.r"
       ],
       "settings": {
         "fontStyle": "",
