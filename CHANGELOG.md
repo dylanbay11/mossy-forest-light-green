@@ -1,7 +1,10 @@
 # Change Log
 
-## 0.5.0
+## 0.6.0
 - Add semantic language server support for new language defaults
+
+## 0.5.0
+- Align version numbers across marketplaces
 
 ## 0.4.0
 - Expanded and improved language defaults
