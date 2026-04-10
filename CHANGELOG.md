@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.5.0
+- Add semantic language server support for new language defaults
+
 ## 0.4.0
 - Expanded and improved language defaults
 

@@ -1,6 +1,5 @@
 {
   "name": "Mossy Forest Light Green",
-  "$schema": "vscode://schemas/color-theme",
   "type": "light",
   "colors": {
 
@@ -1042,5 +1041,38 @@
         "foreground": "#448C27"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+  // Base text
+  "variable": "#2C3320",
+  "parameter": "#2C3320",
+  "property": "#2C3320",
+
+  // Functions (default: redwood)
+  "function": "#AA3731",
+  "method": "#AA3731",
+
+  // Types
+  "type": "#7A3E9D",
+  "class": "#7A3E9D",
+
+  // Keywords
+  "keyword": "#4B83CD",
+
+  // Strings
+  "string": "#448C27",
+
+  // Numbers/constants
+  "number": "#AB6526",
+
+  // Comments
+  "comment": {
+    "foreground": "#6B7D52",
+    "italic": true
+  },
+
+  // 🔑 Critical: handle library/builtins separately
+  "function.defaultLibrary": "#4B83CD",
+  "variable.defaultLibrary": "#AB6526"
+  }
 }
